@@ -50,7 +50,7 @@ footer {
 display: flex;
   /* Add a Flexbox property to center the contents of each section. */
 justify-content: center;
-align-items: center;
+
 }
 
 .content-wrapper {
@@ -101,7 +101,7 @@ justify-content: center;
   /* Add a Flexbox property to make the services-content-wrapper a flex parent container. */
 display: flex;
   /* Add a justify-content property and value so that any extra space in the parent container is between the child flex items as the layout changes and more than one card is on a row.  */
-justify-content: center;
+justify-content: space-between;
   /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
 flex-flow: row wrap;
 }
@@ -132,7 +132,7 @@ flex-direction: column;
   /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
 display: flex;
   /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
-justify-content: center;
+justify-content: space-between;
   /* Add the Flexbox property flex-flow: row wrap; to allow the flex child items to wrap. */
 flex-flow: row wrap;
   /* Add align-items: flex-start; so that the background adjusts to the height of the testimonial. */
@@ -151,7 +151,7 @@ align-items: flex-start;
   /* Add a Flexbox property to make the testimonial-content-wrapper a flex parent container. */
 display: flex;
   /* Add a justify-content property and value so that any extra space if the parent container is around the child flex items.  */
-justify-content: center;
+justify-content: space-around;
   /* Add a Flexbox property to align the contents at their center. */
 align-items: center;
 }
@@ -184,7 +184,7 @@ justify-content: center;
     /* Add flex-direction: row; so that the services cards layout changes to a row orientation. */
   flex-direction: row;
     /* Add a justify-content property and value so that any extra space if the parent container is between the child flex items.  */
-  justify-content: center;
+  justify-content: space-around;
   }
 
   .wrap-reverse {
@@ -220,7 +220,7 @@ justify-content: center;
 @media (min-width: 1200px) {
   .header-content-wrapper {
     /* Add a justify-content property and value so that any extra space if the parent container is between the h1 and "Book a Consultation link.  */
-  justify-content: center;
+  justify-content: space-between;
   }
 
   h1 {
